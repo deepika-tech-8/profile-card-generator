@@ -21,4 +21,5 @@ This project allows users to create a dynamic profile card with a live preview a
 -   html2canvas (for downloading the card as an image)
 
 ## 📂 Project Structure
+output:
 <img width="362" height="571" alt="profile-card (1)" src="https://github.com/user-attachments/assets/3cc137f9-6f4c-4e88-8e45-43b3ab21f4e6" />
