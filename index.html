@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Profile Card Generator</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- library for download image -->
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+</head>
+
+<body>
+
+<h1>User Profile Card Generator</h1>
+
+<button onclick="toggleMode()">🌙 Toggle Dark/Light Mode</button>
+
+<div class="container">
+
+<div class="form">
+
+<input type="text" id="name" placeholder="Enter Name">
+<input type="text" id="role" placeholder="Enter Role">
+
+<input type="file" id="uploadImage">
+
+<textarea id="bio" placeholder="Enter Bio"></textarea>
+
+<input type="text" id="linkedin" placeholder="LinkedIn URL">
+<input type="text" id="github" placeholder="GitHub URL">
+<input type="text" id="instagram" placeholder="Instagram URL">
+
+<button onclick="downloadCard()">Download Card</button>
+
+</div>
+
+
+<div class="card" id="card">
+
+<img id="profileImage" src="https://via.placeholder.com/120">
+
+<h2 id="profileName">Your Name</h2>
+
+<p id="profileRole">Your Role</p>
+
+<p id="profileBio">Your Bio</p>
+
+<div class="social">
+
+<a id="linkedinLink" target="_blank">LinkedIn</a>
+<a id="githubLink" target="_blank">GitHub</a>
+<a id="instagramLink" target="_blank">Instagram</a>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

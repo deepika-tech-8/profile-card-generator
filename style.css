@@ -1,0 +1,83 @@
+body{
+font-family: Arial;
+background:#0d2b4f;
+color:white;
+text-align:center;
+transition:0.3s;
+}
+
+.container{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+}
+
+.form{
+background:white;
+padding:20px;
+border-radius:10px;
+width:250px;
+color:black;
+}
+
+.form input, textarea{
+width:100%;
+margin:8px 0;
+padding:8px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+padding:10px;
+margin-top:10px;
+border:none;
+border-radius:5px;
+background:#6c63ff;
+color:white;
+cursor:pointer;
+}
+
+.card{
+background:white;
+color:black;
+padding:20px;
+border-radius:10px;
+width:250px;
+text-align:center;
+}
+
+.card img{
+width:120px;
+height:120px;
+border-radius:50%;
+}
+
+.social a{
+display:inline-block;
+margin:5px;
+background:#6c63ff;
+color:white;
+padding:6px 12px;
+border-radius:5px;
+text-decoration:none;
+font-size:14px;
+}
+
+/* dark mode */
+
+.dark{
+background:#111;
+color:white;
+}
+
+.dark .form{
+background:#222;
+color:white;
+}
+
+.dark .card{
+background:#333;
+color:white;
+}
