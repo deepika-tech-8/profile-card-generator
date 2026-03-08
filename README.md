@@ -19,7 +19,36 @@ This project allows users to create a dynamic profile card with a live preview a
 -   CSS
 -   JavaScript
 -   html2canvas (for downloading the card as an image)
+## 📂profile-card-generator
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 
-## 📂 Project Structure
-output:
+## ⚙️ How to Run the Project
+
+1. Download or clone the repository
+2. Open the project folder
+3. Double click **index.html**
+4. The project will open in your browser
+
+## 💡 How It Works
+
+1. Enter your name, role, and bio.
+2. Upload a profile image.
+3. Add your social media links.
+4. The profile card updates instantly.
+5. Click **Download Card** to save it as an image.
+
+## 📸 Screenshot
 <img width="362" height="571" alt="profile-card (1)" src="https://github.com/user-attachments/assets/3cc137f9-6f4c-4e88-8e45-43b3ab21f4e6" />
+
+## 👩‍💻 Author
+
+**Deepika R**
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub and feel free to contribute!
+
